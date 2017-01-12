@@ -18,6 +18,7 @@
          * 
         <%out.println("points :" + request.getParameter("points"));%>
         <br>
+        Vous avez terminé toutes les épreuves. ous allez maintenant <%=request.getAttribute("destination")%>
     </body>
 </html>
 
