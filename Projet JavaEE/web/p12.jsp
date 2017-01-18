@@ -1,4 +1,3 @@
-<%@page import="Model.Joueur"%>
 <HTML>
 	<HEAD>
 		<title>Dies Iræ</title>
@@ -9,14 +8,13 @@
 		<HEADER>Dies Iræ</HEADER>
 		<div id="question">
 			<p>
-                            Vous passez de l'autre coté.<br>
-                            <%out.println(((Joueur) session.getAttribute("joueur")).getNom());%>, vos choix seuls determineront votre dernière demeure.<br>
-                            Restez sur vos garde...
+                            La violence est toujours vouée à l'échec<br>
+
+                            
                         </p>
 		</div>
 		<form id="reponse" name="firstForm" action="Controller" method="GET">
-			
-				<input name="action" type="submit" value="Continuer"/>
+                    <input name="action" type="submit" value="Se retrouver face a la violence"/>
 		</form>
 		<FOOTER>Réalisé par Jeremy Duval, Alexis Perrot, Johann Pistorius, Jean Rimlinger</FOOTER>
 	</BODY>

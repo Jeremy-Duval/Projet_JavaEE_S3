@@ -1,0 +1,53 @@
+@font-face{
+	font-family:morris_roman;
+	src : url(MorrisRomanBlack.otf)
+}
+body{
+	text-align:center;
+	font-family: morris_roman;
+	background-color:#333;
+	color:white;
+	width:100%;
+}
+header{
+	font-size:40pt;
+	font-style:bold;
+}
+#question{
+	font-size:20pt;
+}
+#reponse{
+	position:absolute;
+	bottom:25px;
+	font-size:20pt;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	margin-bottom:0;
+	width:100%;
+}
+
+
+input{
+	border:none;
+	font-family:morris_roman;
+	font-size:20pt;
+	width:100%;
+    display: block;
+    color: white;
+	background-color:#222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	transition: background-color 2s;
+}
+footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+/* Change the link color to #111 (black) on hover */
+input:hover {
+    background-color: #345914;
+}
